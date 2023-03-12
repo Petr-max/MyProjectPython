@@ -1,4 +1,5 @@
 # MyProjectPython
 
-1. Seminars
-2. Home - Works
+1. Lecture
+2. Seminars
+3. HomeWorks
