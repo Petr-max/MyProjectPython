@@ -14,11 +14,11 @@
 
 import random
 
-n = input("Введите количество арбузов: ")
+n = input("Введите количество арбузов по весу: ")
 melon_weight = list()
 
 for i in range(int(n)):
-    melon_weight.append(random.randint(1, 10))
+    melon_weight.append(random.randint(1, 50))
 
 print(melon_weight)
 
@@ -31,6 +31,5 @@ for i in range(int(n)):
     if (melon_weight[i] > max):
         max = melon_weight[i]
 
-print("min = ", min)
-print("max = ", max)
-67
+print("min арбуз тёще = ", min)
+print("max арбуз себе = ", max)
