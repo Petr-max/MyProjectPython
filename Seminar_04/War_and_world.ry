@@ -1,0 +1,7 @@
+import fileinput
+
+with open('Seminar_04\war_and_peace.ru.txt', encoding='utf-8') as f:
+    text = f.read().lower().strip().replace('.', '').replace(',', '').replace(
+    ':', '').replace(';', '').replace('?', '').replace('!', '').split()
+
+print(len(text))
